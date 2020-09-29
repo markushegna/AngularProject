@@ -1,0 +1,41 @@
+.header {
+  height: 12vh;
+  background: #5e6b70;
+}
+
+.navbar {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .spacer {
+  flex: 1;
+}
+.navbar .tittel {
+  color: white;
+  margin-left: 1rem;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+.navbar .nav-items {
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+.navbar .nav-items li {
+  display: block;
+  float: left;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.navbar .nav-items li:hover {
+  color: #0088a9;
+}
+
+/*# sourceMappingURL=header.component.css.map */

@@ -1,18 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomePageComponent } from './pages/home-page/home-page.component';
+// import { HomePageComponent } from './pages/home-page/home-page.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainViewComponent } from './components/main-view/main-view.component';
+import { CourseComponent } from './pages/course/course.component';
+import { QuizComponent } from './pages/quiz/quiz.component';
+// import { AboutComponent } from './pages/about/about.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent,
     HeaderComponent,
-    MainViewComponent
+    MainViewComponent,
+    routingComponents,
+    CourseComponent,
+    QuizComponent
   ],
   imports: [
     BrowserModule,
@@ -22,3 +28,4 @@ import { MainViewComponent } from './components/main-view/main-view.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

@@ -3,10 +3,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
-  background-image: url("../images/main-view-background.jpg");
+  min-height: 88vh;
+  background: url("../images/main-view-background.jpg") no-repeat 0 -160px;
 }
 .container .logo {
   display: flex;
@@ -22,13 +21,25 @@
   justify-content: center;
   width: 100%;
 }
-.container .btn {
+.container a {
+  text-decoration: none;
+}
+.container a .btn {
   display: flex;
   justify-content: center;
   margin-top: -35vh;
   background-color: #0088a9;
   padding: 1rem;
   border-radius: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 22px;
+}
+.container :visited {
+  color: black;
+}
+.container :hover {
+  color: #5e6b70;
 }
 
 /*# sourceMappingURL=main-view.component.css.map */
