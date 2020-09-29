@@ -9,7 +9,7 @@ import { MainViewComponent } from './components/main-view/main-view.component';
 import { CourseComponent } from './pages/course/course.component';
 import { QuizComponent } from './pages/quiz/quiz.component';
 // import { AboutComponent } from './pages/about/about.component';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import { QuizComponent } from './pages/quiz/quiz.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

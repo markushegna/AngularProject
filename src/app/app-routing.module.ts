@@ -6,10 +6,10 @@ import {CourseComponent} from './pages/course/course.component';
 import {QuizComponent} from './pages/quiz/quiz.component';
 
 const routes: Routes = [
-  {path: '', component: HomePageComponent},
-  {path: 'about', component: AboutComponent},
-  {path: 'course', component: CourseComponent},
-  {path: 'quiz', component: QuizComponent},
+  {path: '', component: HomePageComponent, data: { animationState: 'One' } },
+  {path: 'about', component: AboutComponent,  data: { animationState: 'Two' } },
+  {path: 'course', component: CourseComponent, data: { animationState: 'Three' } },
+  {path: 'quiz', component: QuizComponent, data: { animationState: 'Four' } },
 ];
 
 @NgModule({

@@ -36,6 +36,7 @@
 }
 .navbar .nav-items li:hover {
   color: #0088a9;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=header.component.css.map */
