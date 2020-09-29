@@ -30,16 +30,14 @@
   margin-top: -35vh;
   background-color: #0088a9;
   padding: 1rem;
+  color: white;
   border-radius: 2rem;
   cursor: pointer;
   text-decoration: none;
   font-size: 22px;
 }
 .container :visited {
-  color: black;
-}
-.container :hover {
-  color: #5e6b70;
+  color: white;
 }
 
 /*# sourceMappingURL=main-view.component.css.map */
