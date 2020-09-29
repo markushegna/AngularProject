@@ -1,3 +1,6 @@
-
+.container {
+  background-color: yellowgreen;
+  min-height: 88vh;
+}
 
 /*# sourceMappingURL=quiz.component.css.map */

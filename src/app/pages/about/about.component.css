@@ -1,3 +1,6 @@
-
+.container {
+  background-color: aquamarine;
+  min-height: 88vh;
+}
 
 /*# sourceMappingURL=about.component.css.map */
