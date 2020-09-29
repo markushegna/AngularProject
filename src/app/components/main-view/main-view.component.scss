@@ -22,23 +22,25 @@
     justify-content: center;
     width: 100%;
   }
-  a{
+
+  a {
     text-decoration: none;
+
     .btn {
       display: flex;
       justify-content: center;
       margin-top: -35vh;
       background-color: #0088a9;
       padding: 1rem;
+      color:white;
       border-radius: 2rem;
       cursor: pointer;
       text-decoration: none;
       font-size: 22px;
     }
-  }:visited{
-  color:black;
-     }:hover {
-           color: #5e6b70;
-           }
+  }
 
+  :visited {
+    color: white;
+  }
 }
