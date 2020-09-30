@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
-import { routeTransitionAnimations } from './route-transition-animations';
+import {routeTransitionAnimations} from './route-transition-animations';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +10,7 @@ import { routeTransitionAnimations } from './route-transition-animations';
 })
 export class AppComponent {
   title = 'AngularProject';
+
   // tslint:disable-next-line:typedef
   prepareRoute(outlet: RouterOutlet) {
     return outlet &&
