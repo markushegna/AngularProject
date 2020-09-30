@@ -1,13 +1,13 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule, routingComponents } from './app-routing.module';
-import { AppComponent } from './app.component';
+import {AppRoutingModule, routingComponents} from './app-routing.module';
+import {AppComponent} from './app.component';
 // import { HomePageComponent } from './pages/home-page/home-page.component';
-import { HeaderComponent } from './components/header/header.component';
-import { MainViewComponent } from './components/main-view/main-view.component';
-import { CourseComponent } from './pages/course/course.component';
-import { QuizComponent } from './pages/quiz/quiz.component';
+import {HeaderComponent} from './components/header/header.component';
+import {MainViewComponent} from './components/main-view/main-view.component';
+import {CourseComponent} from './pages/course/course.component';
+import {QuizComponent} from './pages/quiz/quiz.component';
 // import { AboutComponent } from './pages/about/about.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
@@ -28,5 +28,6 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
 
