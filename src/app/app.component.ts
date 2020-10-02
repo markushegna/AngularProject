@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
-import {routeTransitionAnimations} from './route-transition-animations';
+import {routeTransitionAnimations} from './animations/route-transition-animations';
 
 @Component({
   selector: 'app-root',
