@@ -11,7 +11,7 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent, data: {animationState: 'Two'}},
   {path: 'course', component: CourseComponent, data: {animationState: 'Three'}},
   {path: 'quiz', component: QuizComponent, data: {animationState: 'Four'}},
-  {path: '**', component: PageNotFoundComponent,}
+  {path: '**', component: PageNotFoundComponent}
 ];
 
 @NgModule({
